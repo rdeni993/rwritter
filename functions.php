@@ -16,6 +16,9 @@ function load_assets() // Load Assets like CSS/HTML
     wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri() . '/css/bootstrap-grid.min.css' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 
+    // Load Responsive
+    wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );
+
     // Load Important Bootstrap JS
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js' );
 

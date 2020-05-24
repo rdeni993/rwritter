@@ -1,0 +1,92 @@
+/**
+*
+*   Let's become responsive
+*
+**/
+@media screen and ( max-width: 1440px ){
+
+    /* Fonts to big **/
+    .main-menu h1
+    {
+        font-size: 3em!important;
+    }
+    .main-menu h4
+    {
+        font-size: 1.1em!important;
+    } 
+    /** Search Box resize to fit **/
+    .search-box 
+    {
+        width: 250px!important;
+    }
+    .search-box input 
+    {
+        width: 130px!important;
+    }
+    .search-box button 
+    {
+        width: 70px!important;
+    }
+     
+    /** Menu have to big margin **/
+    .main-menu ul 
+    {
+        margin: 80px 0!important;
+        padding: 0;
+    }
+    .main-menu ul li a 
+    {
+        font-size: 1.1em!important;
+    }
+
+    /** Post header to big **/
+    .main-post h1 
+    {
+        font-size: 1.8em!important;
+    }
+    .main-post img
+    {
+        max-height: 300px!important;
+    }
+
+    /** Biography **/
+    .my-bio h1
+    {
+        font-size: 1.8em!important;
+    }
+    .citesidebar
+    {
+        font-size: 1.2em!important;
+    }
+
+    /** Posts on main post size have to large image **/
+    .open-post img
+    {
+        max-height: 150px!important;
+    }
+    .next-post 
+    {
+        font-size: 0.8em!important;
+    }
+    .post-desc
+    {
+        font-size: .6em!important;
+    }
+    .post-desc span 
+    {
+        margin-right: 12px!important;
+    }
+    .search-posts .post-box img 
+    {
+        max-height: 150px!important;
+    }
+    .categories
+    {
+        font-size: 0.7em;
+    }
+    .search-posts .post-box 
+    {
+        min-height: 300px!important;
+        margin: 50px 0;
+    }
+}
